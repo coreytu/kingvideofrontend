@@ -1,0 +1,8 @@
+{
+    "CreateAPIKey": 1,
+    "AppSyncApiName": "kingvideofrontend",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "S3DeploymentBucket": "amplify-amplifyf936be08fbcb4-staging-74427-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/5aacb703150d13c66bdc390894d726b65b8cebf3"
+}

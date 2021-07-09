@@ -1,0 +1,81 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifyf936be08fbcb4-staging-74427-authRole",
+      "UnauthRoleArn": "arn:aws:iam::019296124112:role/amplify-amplifyf936be08fbcb4-staging-74427-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::019296124112:role/amplify-amplifyf936be08fbcb4-staging-74427-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-amplifyf936be08fbcb4-staging-74427-deployment",
+      "UnauthRoleName": "amplify-amplifyf936be08fbcb4-staging-74427-unauthRole",
+      "StackName": "amplify-amplifyf936be08fbcb4-staging-74427",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:019296124112:stack/amplify-amplifyf936be08fbcb4-staging-74427/7d0c1fa0-e089-11eb-9078-0a773db03a97",
+      "AmplifyAppId": "d1ik30eivlnzd6"
+    }
+  },
+  "auth": {
+    "kingvideofrontend93731532": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyf936be08fbcb4-staging-74427-deployment/amplify-cfn-templates/auth/kingvideofrontend93731532-cloudformation-template.yml",
+        "logicalId": "authkingvideofrontend93731532"
+      },
+      "lastPushTimeStamp": "2021-07-09T07:56:10.512Z",
+      "output": {
+        "UserPoolId": "ap-northeast-1_52UANxEoB",
+        "AppClientIDWeb": "20rg0mdi1nfsbdovhnnbkpfpsb",
+        "AppClientID": "149ova4h4efsaepiu1l09e6tqs",
+        "IdentityPoolId": "ap-northeast-1:a337aeba-8b53-474d-a3c4-b739a3693d88",
+        "UserPoolArn": "arn:aws:cognito-idp:ap-northeast-1:019296124112:userpool/ap-northeast-1_52UANxEoB",
+        "IdentityPoolName": "kingvideofrontend93731532_identitypool_93731532__staging",
+        "UserPoolName": "kingvideofrontend93731532_userpool_93731532"
+      },
+      "lastPushDirHash": "+Vtjr0pKyC0cHzkAdtLcqByHHaM="
+    }
+  },
+  "api": {
+    "kingvideofrontend": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 365,
+              "description": "KingVideoFrontendApiKey"
+            }
+          },
+          "additionalAuthenticationProviders": []
+        },
+        "GraphQLAPIIdOutput": "muw2il4rtzfkrjri3inygqmzze",
+        "GraphQLAPIEndpointOutput": "https://b27dzj7535grnb3g62ylhc37x4.appsync-api.ap-northeast-1.amazonaws.com/graphql",
+        "GraphQLAPIKeyOutput": "da2-zoseda5uwrhvhlnt2ucoj4hi74"
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyf936be08fbcb4-staging-74427-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+        "logicalId": "apikingvideofrontend"
+      },
+      "lastPushTimeStamp": "2021-07-09T07:56:10.512Z",
+      "lastPushDirHash": "TddMlVoIKaESUp8GtFokR2SOsGc="
+    }
+  },
+  "storage": {
+    "UniBucketKingVideoFrontend": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyf936be08fbcb4-staging-74427-deployment/amplify-cfn-templates/storage/s3-cloudformation-template.json",
+        "logicalId": "storageUniBucketKingVideoFrontend"
+      },
+      "lastPushTimeStamp": "2021-07-09T07:56:10.512Z",
+      "output": {
+        "BucketName": "kingvideofrontend3e2a34c159f74a3293a25030539d0f74427-staging",
+        "Region": "ap-northeast-1"
+      },
+      "lastPushDirHash": "C82HdpZ0RS62y7lC0sVY2TT5wYI="
+    }
+  }
+}
