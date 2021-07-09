@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifyf936be08fbcb4-staging-74427-authRole",
+      "UnauthRoleArn": "arn:aws:iam::019296124112:role/amplify-amplifyf936be08fbcb4-staging-74427-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::019296124112:role/amplify-amplifyf936be08fbcb4-staging-74427-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-amplifyf936be08fbcb4-staging-74427-deployment",
+      "UnauthRoleName": "amplify-amplifyf936be08fbcb4-staging-74427-unauthRole",
+      "StackName": "amplify-amplifyf936be08fbcb4-staging-74427",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:019296124112:stack/amplify-amplifyf936be08fbcb4-staging-74427/7d0c1fa0-e089-11eb-9078-0a773db03a97",
+      "AmplifyAppId": "d1ik30eivlnzd6"
+    },
+    "categories": {
+      "auth": {
+        "kingvideofrontend93731532": {}
+      }
+    }
+  }
+}
